@@ -43,10 +43,10 @@
 
 @theme {
   --color-white-background: #f9f9fc;
-  --color-primary: #4e4e54;
-  --color-secondary: #9e9ecf;
-  --color-accent: #aec775;
-  --color-text: #0a0a0d;
+  --color-primary-clr: #4e4e54;
+  --color-secondary-clr: #9e9ecf;
+  --color-accent-clr: #aec775;
+  --color-text-clr: #0a0a0d;
 
   --color-btn-text-dark: #0a0a0d;
   --color-btn-text-white: #f9f9fc;
@@ -56,6 +56,9 @@
 
   --color-border-color: #0a0a0d;
   --font-orbitron: 'Orbitron', 'Roboto';
+  --font-orbitron--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  --font-orbitron--font-variation-settings: 'opsz' 32;
+  --font-Roboto: 'Roboto', 'Orbitron';
   --font-orbitron--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
   --font-orbitron--font-variation-settings: 'opsz' 32;
 }
