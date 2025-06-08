@@ -1,13 +1,11 @@
 import type { HttpContext } from '@adonisjs/core/http'
 
 export default class AuthController {
-  
-  async view({}: HttpContext) {}
-  
+  async signup({}: HttpContext) {}
+
   async store({}: HttpContext) {}
-  
+
   async update({}: HttpContext) {}
-  
+
   async delete({}: HttpContext) {}
-  
 }
