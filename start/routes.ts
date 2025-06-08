@@ -15,11 +15,11 @@ const SigninController = () => import('#controllers/signin_controller')
 router.on('/').render('pages/home')
 
 router.group(() => {
-  router.get('signup', [SignupController, 'view'])
+  router.get('signup', [SignupController, 'view']).as('signup')
   router.post('signup', [SignupController, 'store'])
 })
 
 router.group(() => {
-  router.get('signin', [SigninController, 'view'])
+  router.get('signin', [SigninController, 'view']).as('signin')
   router.post('signin', [SigninController, 'store'])
 })
