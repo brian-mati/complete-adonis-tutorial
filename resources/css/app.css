@@ -7,4 +7,12 @@
   --color-secondary: #9e9ecf;
   --color-accent: #aec775;
   --color-text: #0a0a0d;
+
+  --color-btn-text-dark: #0a0a0d;
+  --color-btn-text-white: #f9f9fc;
+  --color-btn-background-primary: #4e4e54;
+  --color-btn-background-secondary: #9e9ecf;
+  --color-btn-background-accent: #0a0a0d;
+
+  --color-border: #0a0a0d;
 }
